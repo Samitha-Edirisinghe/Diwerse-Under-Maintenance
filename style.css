@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Images */
+.desktop-image,
+.mobile-image {
+    width: 100%;
+}
+
+.desktop-image img,
+.mobile-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Default: Mobile & Tablet */
+.desktop-image {
+    display: none;
+}
+
+.mobile-image {
+    display: block;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .desktop-image {
+        display: block;
+    }
+
+    .mobile-image {
+        display: none;
+    }
+}
