@@ -6,7 +6,7 @@
 
 html, body {
     height: 100%;
-    overflow: hidden; /* removes vertical + horizontal scroll */
+   /* overflow: hidden; /* removes vertical + horizontal scroll */
 }
 
 /* Images */
